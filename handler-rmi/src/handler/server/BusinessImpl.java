@@ -2,6 +2,8 @@ package handler.server;
 
 import java.rmi.RemoteException;
 
+import handler.data.Message;
+
 public class BusinessImpl implements Business {
 
 	@Override
