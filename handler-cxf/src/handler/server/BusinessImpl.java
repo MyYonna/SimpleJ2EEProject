@@ -1,7 +1,6 @@
 package handler.server;
 
 import javax.jws.WebParam;
-import javax.jws.WebService;
 
 import handler.service.Business;
 
