@@ -7,22 +7,22 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for people complex type.
+ * <p>people complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
- * &lt;complexType name="people">
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="age" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="location" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="people"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element name="age" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
+ *         &lt;element name="location" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/restriction&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 
@@ -40,7 +40,7 @@ public class People {
     protected String name;
 
     /**
-     * Gets the value of the age property.
+     * 获取age属性的值。
      * 
      */
     public int getAge() {
@@ -48,7 +48,7 @@ public class People {
     }
 
     /**
-     * Sets the value of the age property.
+     * 设置age属性的值。
      * 
      */
     public void setAge(int value) {
@@ -56,7 +56,7 @@ public class People {
     }
 
     /**
-     * Gets the value of the location property.
+     * 获取location属性的值。
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class People {
     }
 
     /**
-     * Sets the value of the location property.
+     * 设置location属性的值。
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class People {
     }
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class People {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is

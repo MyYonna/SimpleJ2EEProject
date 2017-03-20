@@ -3,7 +3,7 @@ package handler.server;
 import javax.xml.ws.Endpoint;
 /**
  * 客户端�?�过jdk bin目录下的wsimport命令生成辅助调用代码
- * wsimport -keep -p com.demo.client http://localhost:8080/Demo/services/MyService?wsdl
+ * wsimport -keep -p handler.client http://localhost:9527/handlerServer?wsdl
  * @author zhangpeng
  *
  */
