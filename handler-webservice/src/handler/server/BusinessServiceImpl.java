@@ -3,12 +3,15 @@ package handler.server;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
+
+import handler.service.BusinessService;
+import handler.service.People;
 /**
  * name 为客户端生成的远程调用类名，serviceName为客户端生成的远程服务类类
  * @author zhangpeng
  *
  */
-@WebService(name="handler",serviceName="handlerService",targetNamespace="handler.ws")
+@WebService(name="handler",serviceName="BusinessService",targetNamespace="handler.ws")
 @SOAPBinding(style=Style.RPC)
 public class BusinessServiceImpl implements BusinessService {
 
